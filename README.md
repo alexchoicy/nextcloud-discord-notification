@@ -1,16 +1,17 @@
 # Discord Notification
 
-A template to get started with Nextcloud app development.
+**EVERYTHINGS ARE HARDCODED A_A**
 
 ## Usage
 
-- To get started easily use the [Appstore App generator](https://apps.nextcloud.com/developer/apps/generate) to
-  dynamically generate an App based on this repository with all the constants prefilled.
-- Alternatively you can use the "Use this template" button on the top of this page to create a new repository based on
-  this repository. Afterwards adjust all the necessary constants like App ID, namespace, descriptions etc.
-
-Once your app is ready follow the [instructions](https://nextcloudappstore.readthedocs.io/en/latest/developer.html) to
-upload it to the Appstore.
+- after clone the repo, rename the folder to `discordnotification`
+- run `composer install --no-dev` to install getID3
+- in your `config.php` file add
+  - `discordnotification_Imgur_Key`
+  - `discordnotification_WEBHOOK`
+  - `discordnotification_name`
+  - `discordnotification_avatar`
+- enable the app from your nextcloud
 
 ## Resources
 
